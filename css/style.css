@@ -32,3 +32,8 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
+.headers {
+    font-size: 30px;
+    font-weight: bold;
+}
