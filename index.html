@@ -4,19 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <style>
+    .container {
+        display: block;
+    }
+
+    @media screen and (min-width: 400px) {
+        .container {
+            display: flex;
+        }
+    }
+  </style>
 </head>
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+  <div class="container">
+  <nav id="navbar">Navbar
+    <header>Technical documentation</header>
+    <li>
+      <li><a href="#This_is_text_one" class="nav-link">This is text one</a></li>
+      <li><a href="#This_is_text_two" class="nav-link">This is text two</a></li>
+      <li><a href="#This_is_text_three" class="nav-link">This is text three</a></li>
+      <li><a href="#This_is_text_four" class="nav-link">This is text four</a></li>
+      <li><a href="#This_is_text_five" class="nav-link">This is text five</a></li>
+    </ul>
+  </nav>
   <main id="main-doc">
+    
     <section class="main-section" id="This_is_text_one">
       <header >This is text one</header>
       <p>1</p>
       <p>2</p>
       <p>3</p>
       <code>html</code>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
     </section>
     <section class="main-section" id="This_is_text_two">
       <header>This is text two</header>
@@ -25,6 +52,10 @@
       <p>6</p>
       <code>div</code>
       <code>form</code>
+      <ul>
+        <li>4</li>
+        <li>5</li>
+      </ul>
     </section>
     <section class="main-section" id="This_is_text_three">
       <header>This is text three</header>
@@ -41,8 +72,9 @@
       <header>This is text five</header>
       <p>10</p>
     </section>
-    <nav id="navbar">Navbar</nav>
+   
   </main>
+</div>
   <script src="js/index.js"></script>
 </body>
 
